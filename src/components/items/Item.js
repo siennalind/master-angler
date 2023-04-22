@@ -2,9 +2,10 @@ function Item (props) {
     return (
         <li>
             <p>{props.name}</p>
-            <p>{props.type}</p>
-            <p>{props.zone}</p>
-            <p>{props.rarity}</p>
+            <p>Type: {props.type}</p>
+            <p>Zone: {props.zone}</p>
+            <p>Rarity: {props.rarity}</p>
+            <p>Achievements: {props.achievements}</p>
         </li>
     )
 }

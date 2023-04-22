@@ -4,14 +4,14 @@ const DUMMY_DATA = [
         "zone": "auridon",
         "type": "river",
         "rarity": "rare",
-        "achievement": ["auridon angler", "dominion fisherman", "master fisher"]
+        "achievements": ["auridon angler", "dominion fisherman", "master fisher"]
     },
     {
         "name": "mustard eel",
         "zone": "deshaan",
         "type": "saltwater",
         "rarity": "common",
-        "achievement": ["deshaan angler", "pact fisherman", "master fisher"]
+        "achievements": ["deshaan angler", "pact fisherman", "master fisher"]
     }
 ]
 

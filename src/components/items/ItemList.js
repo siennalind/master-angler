@@ -12,6 +12,8 @@ function ItemList (props) {
                 type={item.type}
                 zone={item.zone}
                 rarity={item.rarity}
+                achievements={item.achievements.map(achievement => 
+                <p>{achievement}</p>)}
             />)}
         </ul>
     )
