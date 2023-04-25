@@ -5,7 +5,7 @@ function Item (props) {
             <p>Type: {props.type}</p>
             <p>Zone: {props.zone}</p>
             <p>Rarity: {props.rarity}</p>
-            <p>Achievements: {props.achievements}</p>
+            <ul>Achievements: {props.achievements}</ul>
         </li>
     )
 }
